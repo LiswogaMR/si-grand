@@ -52,12 +52,12 @@
          $template = str_replace('[message]', $message, $template);
          mail($to,$subject,$template,$headers);
 
-         ?>
+      ?>
          <script>
             alert("Messege Successfully Sent. One of our Admin Will attend to it ASAP.");
             window.location.href="../index.php"; 
          </script>
-         <?php
+      <?php
       
       }else{
          //still send an notification to show there was an error with inserting a user message to the developer team to have a look.
@@ -90,12 +90,12 @@
          <?php
       }
    }else{ 
-      ?>
+   ?>
       <script>
             alert("Messege not Sent. Please check your form or try again later.");
             window.location.href="../../index.php"; 
       </script>
-      <?php
+   <?php
    }
 
 ?>

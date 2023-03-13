@@ -1,4 +1,7 @@
 <?php
+
+/*connecting to the db*/
+
     $db = 'si-grand';
     $host = 'localhost';
     $username = 'root';
